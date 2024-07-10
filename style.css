@@ -1,0 +1,37 @@
+*{
+    text-decoration: none ;
+}
+
+body .box {
+    background-color: violet;
+    width: fit-content;
+    height: 300px;
+    align-items: center; 
+    justify-content:center;
+
+    margin: 200px auto;
+}
+h6{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 30px;
+    padding: 3px;
+    background-color: rosybrown;
+    width: fit-content;
+}
+.checkbox{
+    background-color: darkslategray;
+    margin: 20px 20px 30px 20px; 
+    padding: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    line-height: 50px;
+}
+.checkbox input[type="checkbox"]:checked {
+    color: aliceblue;
+    background-color: white !important;
+}
+.checkbox input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: rgb(171, 171, 171);
+}
